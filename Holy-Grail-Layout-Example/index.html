@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Holy Grail Layout Example</title>
+
+     <style>
+          body {
+               font-family: sans-serif;
+               margin: 0;
+               padding: 1px;
+               font-size: 20px;
+          }
+          .layout {
+               display: flex;
+               flex-direction: column;
+               min-height: 100vh;
+          }
+          .header {
+               background-color: #83caff;
+          }
+          .content {
+               display: flex;
+               flex: 1;
+
+          }
+          .main {
+               order: 2;
+               background-color: #ffcccf;
+               padding: 30px;
+          }
+          .left-side {
+               order: 1;
+               width: 30%;
+               background-color: #cb99cc;
+          }
+          .left-side ul li{
+               align-content: flex-end;
+          }
+          .right-side {
+               order: 3;
+               width: 20%;
+               background-color: #cb99cc;
+          }
+
+          .footer {
+               background-color: #83caff;
+          }
+
+
+
+
+
+
+     </style>
+</head>
+<body>
+     <div class="layout">
+          <header class="header">
+               <h1>Header</h1>
+          </header>
+          
+          <section class="content">
+               <main class="main">
+                    <h1>content</h1>
+                    <p>
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                         delectus minus error neque quam reiciendis voluptate saepe quis
+                         accusantium! Officia ab provident doloribus aliquid perferendis
+                         quaerat eaque iusto, dolor temporibus, recusandae vel autem, alias
+                         laudantium optio error quam aliquam ad vero. Dolore dignissimos
+                         laboriosam obcaecati error dolorum numquam molestias enim!
+                    </p>
+                    <p>
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                         delectus minus error neque quam reiciendis voluptate saepe quis
+                         accusantium! Officia ab provident doloribus aliquid perferendis
+                         quaerat eaque iusto, dolor temporibus, recusandae vel autem, alias
+                         laudantium optio error quam aliquam ad vero. Dolore dignissimos
+                         laboriosam obcaecati error dolorum numquam molestias enim!
+                    </p>
+                    <p>
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                         delectus minus error neque quam reiciendis voluptate saepe quis
+                         accusantium! Officia ab provident doloribus aliquid perferendis
+                         quaerat eaque iusto, dolor temporibus, recusandae vel autem, alias
+                         laudantium optio error quam aliquam ad vero. Dolore dignissimos
+                         laboriosam obcaecati error dolorum numquam molestias enim!
+                    </p>
+               </main>
+               <aside class="left-side">
+                    <h2>Menu</h2>
+                    <ul>
+                         <li>item 1</li>
+                         <li>item 2</li>
+                         <li>item 3</li>
+                         <li>item 4</li>
+                         <li>item 5</li>
+                    </ul>
+               </aside>
+               <aside class="right-side">
+                    <h1>AD 1</h1>
+                    <h1>AD 2</h1>
+               </aside>
+          </section>
+          <footer class="footer">
+               <h1>Footer</h1>
+          </footer>
+     
+     </div>
+</body>
+</html>
