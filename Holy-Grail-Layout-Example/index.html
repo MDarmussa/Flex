@@ -19,7 +19,29 @@
                min-height: 100vh;
           }
           .header {
+               display: flex;
                background-color: #83caff;
+               justify-content: space-evenly;
+          }
+          .header h2 {
+               padding: 40px;
+          }
+          .menu {
+               display: flex;
+               justify-content: center;
+          }
+          .menu ul{
+               display: flex;
+               list-style: none;
+               text-transform: uppercase;
+               font-size: 2em;
+               /* align-content: space-between; */
+               /* justify-content: space-between; */
+          }
+          .menu ul li {
+               align-content: space-between;
+               padding: 40px;
+               
           }
           .content {
                display: flex;
@@ -60,6 +82,14 @@
      <div class="layout">
           <header class="header">
                <h1>Header</h1>
+               <div class="menu">
+                    <ul>
+                         <li>Home</li>
+                         <li>About Us</li>
+                         <li>Contact</li>
+                    </ul>
+               </div>
+
           </header>
           
           <section class="content">
