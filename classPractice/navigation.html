@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Navigation Bar</title>
+
+     <style>
+          .nav-bar {
+               display: flex;
+               justify-content: space-between;
+               background-color: skyblue;
+               padding: 10px;
+               margin: 20px;       
+          }
+
+          .menu {
+               display: flex;
+               line-height: 2;
+               list-style-type: none;
+               /* margin: 20px; */
+
+          }
+          h2 {
+               color: white;
+
+          }
+          .item {
+               padding: 10px 20px;
+               font-weight: bold;
+
+          }
+
+          .item a {
+               color: white;
+               text-decoration: none;
+          }
+          .item:hover {
+               background-color: tomato;
+          }
+
+     </style>
+</head>
+<body>
+     <div class="container">
+          <nav class="nav-bar">
+               <h2>Company Name</h2>
+               <ul class="menu">
+                    <li class="item"><a href="#">Home</a></li>
+                    <li class="item"><a href="#">Products</a></li>
+                    <li class="item"><a href="#">About</a></li>
+                    <li class="item"><a href="#">Career</a></li>
+                    <li class="item"><a href="#">Contact</a></li>
+
+               </ul>
+
+          </nav>
+     </div>
+     
+</body>
+</html>
