@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Input Add-ons</title>
+
+     <style>
+          .layout {
+               max-width: 400px;
+               padding: 20px;
+               margin: 0 auto;
+          }
+          .input-container {
+               display: flex;
+               margin-bottom: 10px;
+          }
+          .input-holder, .sign {
+               /* height: 30px;
+               width: 400px; */
+               padding: 5px 10px;
+               font-size: 16px;
+          }
+          .input-holder {
+               flex: 1;
+          }
+
+          .sign {
+               background-color: #eee;
+               border: none;
+               line-height: 1.4;
+          }
+
+
+
+
+     </style>
+</head>
+<body>
+     <div class="layout">
+          <h1>Input Add-ons Exercise</h1>
+          <label for="name">Name</label>
+          <div class="input-container">
+               <input type="text" id="name" class="input-holder" placeholder="Enter your Name">
+               <button class="button">Submit</button>
+          </div>
+
+          <label for="name">Price</label>
+          <div class="input-container">
+               <div class="sign">$</div>
+               <input type="text" id="name" class="input-holder sub" placeholder="Enter the price">
+          </div>
+
+          <label for="name">Handle</label>
+          <div class="input-container">
+               <div class="sign">@</div>
+               <input type="text" id="name" class="input-holder" placeholder="Enter your handle">
+               <button class="button">Submit</button>
+          </div>
+
+     </div>
+</body>
+</html>
