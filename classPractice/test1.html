@@ -8,110 +8,46 @@
      <style>
           .container {
                display: flex;
-               flex-wrap: wrap;
-               width: 800px;
+               font-size: 55px;
+               /* border: 5px solid blue; */
+               height: 10vh;
+               /* justify-content: center; */
+               /* padding: 10px; */
+               /* align-items: center; */
+               color: white;
+               /* flex-wrap: wrap; */
+               align-content: center;
+               
           }
-          .column {
-               display: flex;
+          .box {
+               /* flex: 1; */
+               font: 2px;
+               width: 33.3%;
+               
+          }
+          .box:nth-child(even) {
+               /* align-self: stretch; */
+               /* padding-bottom: 200px; */
+       
+               
+          }
 
-          }
-          .cell {
-               display: flex;
-               background-color: #ffce9e;
-               width: 100px;
-               height: 100px;
-          }
-          .column:nth-child(even) > .cell:nth-child(odd) {
-               background-color: #d18a46;
-          }
-          .column:nth-child(odd) >  .cell:nth-child(even) {
-               background-color: #d18a46;
-          } 
+
 
      </style>
 </head>
 <body>
      <div class="container">
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
+          <div class="box">
+               <div class="box1" style="background-color: red;">1</div>
+               <div class="box2" style="background-color: turquoise;">2</div>
+               <div class="box3" style="background-color: violet;">3</div>
+               <div class="box4" style="background-color: wheat;">4</div>
+               <div class="box5" style="background-color: yellow;">5</div>
+               <div class="box6" style="background: yellowgreen;">6</div>
           </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
-          <div class="column">
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-               <div class="cell"></div>
-          </div>
+
      </div>
+
 </body>
 </html>
